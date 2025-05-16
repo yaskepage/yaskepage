@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: rgb(197, 74, 228);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Contenido principal */
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.tipo {
+  background-color: white;
+  border-left: 6px solid rgb(197, 74, 228);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.tipo h2 {
+  color: rgb(197, 74, 228);
+}
+
+.tipo ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #be41ae;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+button {
+    
+    padding: 15px 40px;
+    background-color: rgb(197, 74, 228); /* Rosa claro, más parecido al del logo */
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    border-radius: 30px; /* Borde redondeado */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin-bottom: 40px; /* Espacio debajo del botón para despegarlo del pie de página */
+    
+    
+  }
+  
+  button:hover {
+    background-color: rgb(197, 74, 228); /* Cambia a un rosado más oscuro al pasar el mouse */
+    transform: translateY(-5px); /* Eleva un poco el botón */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  }
+  
+  button:focus {
+    outline: none; /* Eliminar el borde cuando el botón es clickeado */
+  }  
